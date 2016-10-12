@@ -1,0 +1,15 @@
+I have renamed the excel files to Indicator.xlxs,Orders.xlxs and Downtime.xlxs
+
+In order to run the files run
+
+./Data_transformation.sh
+
+and then run model.sh with Argument as 
+LR for Logistic Regression  (./model LR)
+NB for Naive Bayes          (./model NB)  
+RF for Random Forest        (./model RF)
+GB for gradient boosting    (./model GB)
+
+
+
+

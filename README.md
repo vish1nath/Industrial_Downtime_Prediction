@@ -1,6 +1,6 @@
 # Industrial_Downtime_Prediction
 
-I am working on model to predict the downtime of an Industrial asset based on its everyday sensor data.
+I am working on model to predict the downtime of an Industrial asset will have a failure in next 48hrs based on its everyday sensor data.
 
 
 The Dataset has 20 predictor variables.I did the below steps as part of data cleaning,transformation and integration.

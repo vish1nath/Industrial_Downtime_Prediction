@@ -10,7 +10,17 @@ The Dataset has 20 predictor variables.I did the below steps as part of data cle
 8. Creating Dummies for filter variables-In Python we convert the categorical variables to binary indicators using dummies function.
 9. Dropping the records of actual Downtime- Dropping the actual downtime dates and its previous dates indicator readings as it can disturb the model.
 
+As part of feature selection,I choose to run the random forest classification algorithm and get the feature importance.I also used spearman-rank correlation method.
 
+I performed the below 4 machine learning algorithms
+1. Logistic Regression- It uses regularized regression using the liblinear solver sklearn which is preferred for smaller dataset.I used l2 penalty using scikit learn
+2. Gaussian Naive Bayes-  GaussianNB implements the Gaussian Naive Bayes algorithm for classification. The likelihood of the features is assumed to be Gaussian
+3. Random Forest-A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and use averaging to improve the predictive accuracy and control over-fitting.
+4. Gradient Boosting Classifier- Gradient Boosting builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. 
+
+Apart from the above 4 algorithms,I tried using SVM and KNN classifier algorithms,But their performance scores(recall) are too low.
+
+I have used Grids search in python to search for best parameters to run the model.I have performed grid search along with cross validation in order to avoid over fitting of the data.
 In order to run the files run
 
 ./Data_transformation.sh

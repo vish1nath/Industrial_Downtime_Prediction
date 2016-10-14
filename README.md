@@ -20,7 +20,7 @@ As part of feature selection,I choose to run the random forest classification al
 
 
 
-I performed the below 4 machine learning algorithms
+I modeled the below 4 machine learning algorithms
 - Logistic Regression- It uses regularized regression using the liblinear solver sklearn which is preferred for smaller dataset.I used l2 penalty using scikit learn
 - Gaussian Naive Bayes-  GaussianNB implements the Gaussian Naive Bayes algorithm for classification. The likelihood of the features is assumed to be Gaussian
 3. Random Forest-A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and use averaging to improve the predictive accuracy and control over-fitting.

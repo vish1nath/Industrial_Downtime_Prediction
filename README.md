@@ -1,4 +1,4 @@
-# Industrial_Downtime_Prediction
+# Industrial assets downtime prediction
 
 I am working on model to predict the downtime of an Industrial asset will have a failure in next 48hrs based on its everyday sensor data.
 
